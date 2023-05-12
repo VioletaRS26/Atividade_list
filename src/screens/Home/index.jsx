@@ -27,7 +27,6 @@ export function Home() {
                 onPress: () => setParticipants(prevState => prevState.filter(part => part !== name))
             },
         ])
-        console.log(`Você clicou em remover o participante ${name}`);
     }
 
     return (
